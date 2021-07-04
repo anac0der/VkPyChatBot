@@ -3,7 +3,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import random
 from footbot import Bot
 
-token = "6eda92b524e013fda91a0b2e7551fdc8f78270c20bffd89aaaf6f7a0ff0359d37c190a6b5b7fbd149b74f"
+token = "0123456789"
 vk = vk_api.VkApi(token=token)
 
 longpoll = VkLongPoll(vk)
