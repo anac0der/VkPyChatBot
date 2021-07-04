@@ -32,7 +32,7 @@ for event in longpoll.listen():
                 write_mess(event.user_id, users_bot_class_dict[user_id].update_screen(event.text))
                 print('Text: ', event.text)
         except TimeoutError:
-            write_mess(270461087, "ОШИБКА!!!")
+            write_mess(**тут должен быть id хозяина**, "ОШИБКА!!!")
             print("ERROR OCCURED")
 
 
